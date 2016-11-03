@@ -14,6 +14,7 @@ var EmployeeRow = React.createClass({
     render:function(){
       return (<tr className={this.props.title}>
           <td>{this.props.name}</td>
+          //add proteties
           <td>{this.props.title}</td>
           <td>{this.props.salary}</td>
       </tr>)
